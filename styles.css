@@ -1,0 +1,39 @@
+/* Oszlopok stílusa */
+.oszlop {
+    width: 40px;
+    float: left;
+    margin-right: 0px; /* Válassz egy megfelelő margint az oszlopok között */
+    margin-left: 0px; /* Válassz egy megfelelő margint az oszlopok között */
+
+    background-image: url('kottavonalak.jpg'); /* Háttérkép az oszlopokra */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 5px;
+}
+.oszlop:first-child {
+	clear:left;
+}
+.oszlop:not(:first-child) {
+	clear:none;
+}
+/* Leírások stílusa */
+.leiras {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+//	clear:left;
+}
+
+/* Radiógombok egymás alá rendezése */
+input[type="radio"],
+label {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/* Háttérszín beállítása */
+body {
+    background-color: #f0f0f0;
+}
