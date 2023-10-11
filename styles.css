@@ -5,7 +5,7 @@
     margin-right: 0px; /* Válassz egy megfelelő margint az oszlopok között */
     margin-left: 0px; /* Válassz egy megfelelő margint az oszlopok között */
 
-    background-image: url('kottavonalak.jpg'); /* Háttérkép az oszlopokra */
+    background-image: url('kottavonalak.JPG'); /* Háttérkép az oszlopokra */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 5px;
