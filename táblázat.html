@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Csata résztvevői</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Csata résztvevői</h2>
+    <label for="characterName">Név:</label>
+    <input type="text" id="characterName"><br><br>
+    
+    <!-- Beviteli mezők minden tulajdonsághoz -->
+    <label for="EP">Ép:</label>
+    <input type="number" id="EP"><br>
+    <label for="FP">Fp:</label>
+    <input type="number" id="FP"><br>
+    <label for="KE">KÉ:</label>
+    <input type="number" id="KE"><br>
+    <label for="TE">TÉ:</label>
+    <input type="number" id="TE"><br>
+    <label for="VE">VÉ:</label>
+    <input type="number" id="VE"><br>
+    <label for="CE">CÉ:</label>
+    <input type="number" id="CE"><br>
+    <label for="Tamperkor">Tám/kör:</label>
+    <input type="number" id="Tamperkor"><br>
+    <label for="Sebzes">Sebzés:</label>
+    <input type="number" id="Sebzes"><br>
+    <label for="SFE">SFÉ:</label>
+    <input type="number" id="SFE"><br>
+    <!-- További tulajdonságok beviteli mezői -->
+
+    <label for="isFriendly">Ellenség:</label>
+    <input type="checkbox" id="isFriendly"><br><br>
+
+    <button onclick="addParticipant()">Résztvevő hozzáadása</button><br><br>
+
+    <table id="participantsTable" border="1">
+      <thead>
+        <tr>
+          <th>Név</th>
+          <th>Ép</th>
+          <th>Fp</th>
+          <th>KÉ</th>
+          <th>TÉ</th>
+          <th>VÉ</th>
+          <th>CÉ</th>
+          <th>Tám/kör</th>
+          <th>Sebzés</th>
+          <th>SFÉ</th>
+          <!-- További oszlopok címei -->
+          <th>Barát/Ellenség</th>
+        </tr>
+      </thead>
+      <tbody id="participantsBody">
+        <!-- Résztvevők sorai lesznek beillesztve ide -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="tb_script.js"></script>
+</body>
+</html>
